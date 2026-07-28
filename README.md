@@ -7,7 +7,7 @@ Personal portfolio website showcasing my projects and skills as a Software Devel
 
 ## Built With
 - HTML5
-- CSS3
+- CSS
 - JavaScript
 
 ## Sections
