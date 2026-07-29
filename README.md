@@ -3,7 +3,7 @@
 Personal portfolio website showcasing my projects and skills as a Software Development student.
 
 ## 🔗 Live Site
-[Add your GitHub Pages link here once deployed]
+https://github.com/deborahineza252/portfolio
 
 ## Built With
 - HTML5
