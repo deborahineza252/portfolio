@@ -12,7 +12,8 @@ https://github.com/deborahineza252/portfolio
 
 ## Sections
 - About Me
-- Projects
+- Projects:
+- https://deborahineza252.github.io/explore-SA/
 - Skills
 - Contact
 
