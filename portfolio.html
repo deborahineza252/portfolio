@@ -13,22 +13,23 @@
 
 <body>
 
- <nav class="navbar">
-    <div class="nav-logo">DEBORAH INEZA<span>.</span></div>
-    <ul class="nav-links" id="navLinks">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="journey.html">Journey</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-    <div class="nav-cta"><a href="contact.html">Hire Me</a></div>
-    <div class="hamburger" id="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-</nav>
+    <nav class="navbar">
+        <div class="nav-logo">DEBORAH INEZA<span>.</span></div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html" class="active">Portfolio</a></li>
+            <li><a href="journey.html">Journey</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-cta"><a href="contact.html">Hire Me</a></div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
     <header class="page-header">
         <h1>My Work</h1>
         <p>A showcase of my recent coding projects and creative technical solutions.</p>
@@ -39,13 +40,13 @@
 
             <article class="project-card">
                 <div class="project-image">
-                    <img src="diary.png" alt="personal diary project screenshot"
+                    <img src="diary.png" alt="Personal Diary project screenshot"
                         onerror="this.parentElement.innerHTML='Project Screenshot 1'">
                 </div>
                 <div class="project-info">
-                    <h3>Personal diary</h3>
-                    <p>A web-based application designed to help users manage their daily entries and reflect on their
-                        experiences.</p>
+                    <h3>Personal Diary</h3>
+                    <p>A web-based application designed to help users manage their daily entries and reflect on
+                        their experiences.</p>
                     <div class="project-tech">
                         <span class="tech-tag">HTML5</span>
                         <span class="tech-tag">CSS3</span>
@@ -57,13 +58,13 @@
 
             <article class="project-card">
                 <div class="project-image">
-                    <img src="cozycorner.png" alt="cozy corner project screenshot"
+                    <img src="cozycorner.png" alt="Cozy Corner project screenshot"
                         onerror="this.parentElement.innerHTML='Project Screenshot 2'">
                 </div>
                 <div class="project-info">
-                    <h3>cozy corner</h3>
-                    <p>allows users to create and manage a collection of their favorite cozy spots,as well as their
-                        favorite ctivities within a very theme choosen by the user./p>
+                    <h3>Cozy Corner</h3>
+                    <p>Allows users to create and manage a collection of their favorite cozy spots, as well as
+                        their favorite activities, within a theme chosen by the user.</p>
                     <div class="project-tech">
                         <span class="tech-tag">HTML5</span>
                         <span class="tech-tag">CSS3</span>
@@ -73,20 +74,41 @@
                 </div>
             </article>
 
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="EXPLORESA.png" alt="Explore SA project screenshot"
+                        onerror="this.parentElement.innerHTML='Screenshot Coming Soon'">
+                </div>
+                <div class="project-info">
+                    <h3>Explore SA</h3>
+                    <p>A web application for discovering and exploring destinations, attractions, and experiences
+                        across South Africa.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <a href="https://deborahineza252.github.io/explore-SA/" target="_blank"
+                        rel="noopener noreferrer" class="btn btn-outline">View Project</a>
+                </div>
+            </article>
+
         </div>
     </main>
 
     <footer class="footer">
-        <p>© 2026 Deborah Ineza </p>
+        <p>© 2026 Deborah Ineza</p>
     </footer>
-<script>
-    const hamburger = document.getElementById('hamburger');
-    const navLinks = document.getElementById('navLinks');
-    hamburger.addEventListener('click', () => {
-        hamburger.classList.toggle('active');
-        navLinks.classList.toggle('active');
-    });
-</script>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+    </script>
+
 </body>
 
 </html>
