@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analytics | Profile Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-logo">DEBORAH INEZA<span>.</span></div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="data.html" class="active">Data Analytics</a></li>
+            <li><a href="journey.html">Journey</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-cta"><a href="contact.html">Hire Me</a></div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <h1>Data Analytics</h1>
+        <p>SQL, Power BI, and Excel work — turning raw data into clear insights.</p>
+    </header>
+
+    <main class="portfolio-section">
+        <div class="portfolio-grid">
+<article class="project-card">
+    <div class="project-image">
+        <img src="techtrend-dashboard.png" alt="TechTrend Retail Solutions Power BI dashboard screenshot"
+            onerror="this.parentElement.innerHTML='Dashboard Screenshot Coming Soon'">
+    </div>
+    <div class="project-info">
+        <h3>TechTrend Retail Solutions — BI Dashboard</h3>
+        <p>Acted as Junior BI Analyst for a multi-branch retail company, consolidating fragmented Excel,
+            CSV, and raw SQL data into a single Power BI model. Built a star-schema data model, created
+            DAX measures for revenue, profit margin, and stock risk, and delivered an interactive
+            executive dashboard with 4 slicers and a written business insight report.</p>
+        <div class="project-tech">
+            <span class="tech-tag">Power BI</span>
+            <span class="tech-tag">DAX</span>
+            <span class="tech-tag">Power Query</span>
+            <span class="tech-tag">Excel</span>
+            <span class="tech-tag">SQL</span>
+        </div>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-outline">View Project</a>
+    </div>
+</article>
+            <!-- PROJECT 1 -->
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="data-project1.png" alt="Dashboard screenshot for project 1"
+                        onerror="this.parentElement.innerHTML='Dashboard Screenshot Coming Soon'">
+                </div>
+                <div class="project-info">
+                    <h3>Project Title Here</h3>
+                    <p>Short description: what question you were answering, what data you used, and the key
+                        insight you found.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">Power BI</span>
+                        <span class="tech-tag">Excel</span>
+                    </div>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-outline">View Project</a>
+                </div>
+            </article>
+
+            <!-- Duplicate the article block above for each new project -->
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Deborah Ineza</p>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+    </script>
+
+</body>
+
+</html>HYG
